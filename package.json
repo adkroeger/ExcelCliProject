@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/adkroeger/ExcelCliProject/issues"
   },
-  "homepage": "https://github.com/adkroeger/ExcelCliProject#readme"
+  "homepage": "https://github.com/adkroeger/ExcelCliProject#readme",
+  "dependencies": {
+    "exceljs": "^4.3.0"
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "excel-cli-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adkroeger/ExcelCliProject.git"
+  },
+  "author": "Adrian Kröger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adkroeger/ExcelCliProject/issues"
+  },
+  "homepage": "https://github.com/adkroeger/ExcelCliProject#readme"
+}

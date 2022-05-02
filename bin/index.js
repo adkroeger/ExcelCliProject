@@ -2,6 +2,12 @@
 const Excel = require('exceljs');
 const FormulaParser = require('hot-formula-parser').Parser;
 const parser = new FormulaParser();
+const yargs = require("yargs");
+
+const options = yargs
+ .usage("Usage: -n <number>")
+ .option("n", { alias: "number", describe: "Number to add to the calculation", type: "int", demandOption: true })
+ .argv;
 
 
 const excelUpdate = async (file, worksheetId, rowId, columnLabel, value) => {
@@ -34,7 +40,7 @@ const exec = async () => {
       }
     });
 
-   const worksheet = await excelUpdate("ExcelLogic.xlsx", "Tabelle1", 3, 'B', 5);
+   const worksheet = await excelUpdate("ExcelLogic.xlsx", "Tabelle1", 3, 'B', options.number);
 
    const result = await excelRead(worksheet, "B5");
 

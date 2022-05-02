@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const Excel = require('exceljs');
 const FormulaParser = require('hot-formula-parser').Parser;
 const parser = new FormulaParser();

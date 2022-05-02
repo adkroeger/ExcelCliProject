@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/adkroeger/ExcelCliProject#readme",
   "dependencies": {
-    "exceljs": "^4.3.0"
+    "exceljs": "^4.3.0",
+    "hot-formula-parser": "^4.0.0",
+    "i": "^0.3.7",
+    "npm": "^8.8.0"
   }
 }
